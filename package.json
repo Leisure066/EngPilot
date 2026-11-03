@@ -1,0 +1,19 @@
+{
+  "name": "engpilot",
+  "version": "1.1.0",
+  "private": true,
+  "description": "EngPilot · 离线 CET-6 背单词应用（词库、词缀、离线词典、记忆曲线）",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "build:db": "node scripts/build_db.js",
+    "build:db:reset": "node scripts/build_db.js --reset",
+    "build:seed": "python scripts/build_wordlist.py",
+    "import:dict": "node scripts/import_stardict.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "license": "MIT"
+}

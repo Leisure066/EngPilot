@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="EngPilot · 本地 CET-6 词库，每日 20 词，认识就过，不认识再来。">
+  <title>EngPilot · CET-6</title>
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="nav">
+      <a class="brand" href="#/home" aria-label="EngPilot">
+        <img class="brand-mark" src="/icon-192.png" alt="" width="26" height="26">
+        <span class="brand-name">EngPilot</span>
+      </a>
+
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#/home" data-nav="home">首页</a>
+        <a href="#/today" data-nav="today">今日</a>
+        <a href="#/bank" data-nav="bank">词库</a>
+        <a href="#/review" data-nav="review">复习<span id="nav-review-due" class="nav-due" hidden></span></a>
+        <a href="#/notes" data-nav="notes">笔记</a>
+        <a href="#/stats" data-nav="stats">统计</a>
+      </nav>
+
+      <div class="nav-search">
+        <label class="search search-sm">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4 4"/></svg>
+          <input id="global-search" type="search" placeholder="查单词或中文释义…" autocomplete="off" spellcheck="false" />
+        </label>
+        <div id="search-panel" class="search-panel" hidden></div>
+      </div>
+
+      <div class="nav-actions">
+        <select class="book-select" id="book-select" title="切换词书" aria-label="切换词书" hidden></select>
+        <button class="icon-btn" id="btn-starred" type="button" title="只看星标">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9z"/></svg>
+          <span id="starred-count" class="icon-count">0</span>
+        </button>
+        <button class="icon-btn" id="btn-add" type="button" title="添加单词">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <button class="icon-btn" id="btn-settings" type="button" title="设置">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 13.5a7.9 7.9 0 000-3l2-1.5-2-3.4-2.3 1a8 8 0 00-2.6-1.5L14.2 2h-4l-.3 2.6a8 8 0 00-2.6 1.5l-2.3-1-2 3.4 2 1.5a7.9 7.9 0 000 3l-2 1.5 2 3.4 2.3-1a8 8 0 002.6 1.5l.3 2.6h4l.3-2.6a8 8 0 002.6-1.5l2.3 1 2-3.4z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="view" class="view" tabindex="-1"></main>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

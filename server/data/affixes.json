@@ -1,0 +1,1246 @@
+{
+  "version": 2,
+  "note": "前缀/后缀/词根目录。forms 为可匹配的词形，minStem 为词干最小长度。",
+  "prefixes": [
+    {
+      "key": "anti",
+      "label": "anti-",
+      "forms": [
+        "anti"
+      ],
+      "meaning": "反对；对抗"
+    },
+    {
+      "key": "auto",
+      "label": "auto-",
+      "forms": [
+        "auto"
+      ],
+      "meaning": "自动；自己"
+    },
+    {
+      "key": "bi",
+      "label": "bi-",
+      "forms": [
+        "bi"
+      ],
+      "meaning": "二；双"
+    },
+    {
+      "key": "co",
+      "label": "co- / col- / com- / con- / cor-",
+      "forms": [
+        "co",
+        "col",
+        "com",
+        "con",
+        "cor"
+      ],
+      "meaning": "共同；一起"
+    },
+    {
+      "key": "counter",
+      "label": "counter-",
+      "forms": [
+        "counter"
+      ],
+      "meaning": "反对；相反"
+    },
+    {
+      "key": "de",
+      "label": "de-",
+      "forms": [
+        "de"
+      ],
+      "meaning": "向下；去除；否定"
+    },
+    {
+      "key": "dis",
+      "label": "dis-",
+      "forms": [
+        "dis"
+      ],
+      "meaning": "不；分开；相反"
+    },
+    {
+      "key": "en",
+      "label": "en- / em-",
+      "forms": [
+        "en",
+        "em"
+      ],
+      "meaning": "使；进入"
+    },
+    {
+      "key": "ex",
+      "label": "ex- / ef-",
+      "forms": [
+        "ex",
+        "ef"
+      ],
+      "meaning": "向外；前任"
+    },
+    {
+      "key": "extra",
+      "label": "extra-",
+      "forms": [
+        "extra"
+      ],
+      "meaning": "超出；额外"
+    },
+    {
+      "key": "fore",
+      "label": "fore-",
+      "forms": [
+        "fore"
+      ],
+      "meaning": "前；预先"
+    },
+    {
+      "key": "hyper",
+      "label": "hyper-",
+      "forms": [
+        "hyper"
+      ],
+      "meaning": "过度；超"
+    },
+    {
+      "key": "in",
+      "label": "in- / im- / il- / ir-",
+      "forms": [
+        "in",
+        "im",
+        "il",
+        "ir"
+      ],
+      "meaning": "不；进入；向内"
+    },
+    {
+      "key": "inter",
+      "label": "inter-",
+      "forms": [
+        "inter"
+      ],
+      "meaning": "在…之间；相互"
+    },
+    {
+      "key": "intra",
+      "label": "intra-",
+      "forms": [
+        "intra"
+      ],
+      "meaning": "内部；在内"
+    },
+    {
+      "key": "macro",
+      "label": "macro-",
+      "forms": [
+        "macro"
+      ],
+      "meaning": "大；宏观"
+    },
+    {
+      "key": "mal",
+      "label": "mal-",
+      "forms": [
+        "mal"
+      ],
+      "meaning": "坏；不良"
+    },
+    {
+      "key": "micro",
+      "label": "micro-",
+      "forms": [
+        "micro"
+      ],
+      "meaning": "微小"
+    },
+    {
+      "key": "mis",
+      "label": "mis-",
+      "forms": [
+        "mis"
+      ],
+      "meaning": "错误；坏"
+    },
+    {
+      "key": "mono",
+      "label": "mono-",
+      "forms": [
+        "mono"
+      ],
+      "meaning": "单一"
+    },
+    {
+      "key": "multi",
+      "label": "multi-",
+      "forms": [
+        "multi"
+      ],
+      "meaning": "多；多种"
+    },
+    {
+      "key": "neo",
+      "label": "neo-",
+      "forms": [
+        "neo"
+      ],
+      "meaning": "新"
+    },
+    {
+      "key": "non",
+      "label": "non-",
+      "forms": [
+        "non"
+      ],
+      "meaning": "不；非"
+    },
+    {
+      "key": "out",
+      "label": "out-",
+      "forms": [
+        "out"
+      ],
+      "meaning": "向外；超过"
+    },
+    {
+      "key": "over",
+      "label": "over-",
+      "forms": [
+        "over"
+      ],
+      "meaning": "过度；在上"
+    },
+    {
+      "key": "pan",
+      "label": "pan-",
+      "forms": [
+        "pan"
+      ],
+      "meaning": "全；泛"
+    },
+    {
+      "key": "peri",
+      "label": "peri-",
+      "forms": [
+        "peri"
+      ],
+      "meaning": "周围；环绕"
+    },
+    {
+      "key": "poly",
+      "label": "poly-",
+      "forms": [
+        "poly"
+      ],
+      "meaning": "多；聚合"
+    },
+    {
+      "key": "post",
+      "label": "post-",
+      "forms": [
+        "post"
+      ],
+      "meaning": "后；之后"
+    },
+    {
+      "key": "pre",
+      "label": "pre-",
+      "forms": [
+        "pre"
+      ],
+      "meaning": "前；预先"
+    },
+    {
+      "key": "pro",
+      "label": "pro-",
+      "forms": [
+        "pro"
+      ],
+      "meaning": "向前；支持"
+    },
+    {
+      "key": "re",
+      "label": "re-",
+      "forms": [
+        "re"
+      ],
+      "meaning": "再；回；重新"
+    },
+    {
+      "key": "retro",
+      "label": "retro-",
+      "forms": [
+        "retro"
+      ],
+      "meaning": "向后；追溯"
+    },
+    {
+      "key": "semi",
+      "label": "semi-",
+      "forms": [
+        "semi"
+      ],
+      "meaning": "半；部分"
+    },
+    {
+      "key": "sub",
+      "label": "sub- / sup- / sus-",
+      "forms": [
+        "sub",
+        "sup",
+        "sus"
+      ],
+      "meaning": "下；次级；副"
+    },
+    {
+      "key": "super",
+      "label": "super-",
+      "forms": [
+        "super"
+      ],
+      "meaning": "上；超过"
+    },
+    {
+      "key": "sur",
+      "label": "sur-",
+      "forms": [
+        "sur"
+      ],
+      "meaning": "上；超过；额外"
+    },
+    {
+      "key": "tele",
+      "label": "tele-",
+      "forms": [
+        "tele"
+      ],
+      "meaning": "远；远距离"
+    },
+    {
+      "key": "trans",
+      "label": "trans-",
+      "forms": [
+        "trans"
+      ],
+      "meaning": "横过；转变"
+    },
+    {
+      "key": "tri",
+      "label": "tri-",
+      "forms": [
+        "tri"
+      ],
+      "meaning": "三"
+    },
+    {
+      "key": "ultra",
+      "label": "ultra-",
+      "forms": [
+        "ultra"
+      ],
+      "meaning": "超；极"
+    },
+    {
+      "key": "un",
+      "label": "un-",
+      "forms": [
+        "un"
+      ],
+      "meaning": "不；相反；取消"
+    },
+    {
+      "key": "under",
+      "label": "under-",
+      "forms": [
+        "under"
+      ],
+      "meaning": "下；不足；低于"
+    },
+    {
+      "key": "uni",
+      "label": "uni-",
+      "forms": [
+        "uni"
+      ],
+      "meaning": "一；单一"
+    },
+    {
+      "key": "vice",
+      "label": "vice-",
+      "forms": [
+        "vice"
+      ],
+      "meaning": "副；代理"
+    },
+    {
+      "key": "bio",
+      "label": "bio-",
+      "forms": [
+        "bio"
+      ],
+      "meaning": "生命；生物"
+    },
+    {
+      "key": "geo",
+      "label": "geo-",
+      "forms": [
+        "geo"
+      ],
+      "meaning": "地球；地理"
+    },
+    {
+      "key": "eco",
+      "label": "eco-",
+      "forms": [
+        "eco"
+      ],
+      "meaning": "生态；环境"
+    },
+    {
+      "key": "photo",
+      "label": "photo-",
+      "forms": [
+        "photo"
+      ],
+      "meaning": "光；照片"
+    },
+    {
+      "key": "psycho",
+      "label": "psycho-",
+      "forms": [
+        "psycho"
+      ],
+      "meaning": "心理；精神"
+    },
+    {
+      "key": "thermo",
+      "label": "thermo-",
+      "forms": [
+        "thermo"
+      ],
+      "meaning": "热；温度"
+    },
+    {
+      "key": "hydro",
+      "label": "hydro-",
+      "forms": [
+        "hydro"
+      ],
+      "meaning": "水；氢"
+    },
+    {
+      "key": "aero",
+      "label": "aero-",
+      "forms": [
+        "aero"
+      ],
+      "meaning": "空气；航空"
+    },
+    {
+      "key": "cyber",
+      "label": "cyber-",
+      "forms": [
+        "cyber"
+      ],
+      "meaning": "网络；计算机"
+    },
+    {
+      "key": "nano",
+      "label": "nano-",
+      "forms": [
+        "nano"
+      ],
+      "meaning": "纳米；极小"
+    },
+    {
+      "key": "self",
+      "label": "self-",
+      "forms": [
+        "self"
+      ],
+      "meaning": "自我；自身"
+    },
+    {
+      "key": "mid",
+      "label": "mid-",
+      "forms": [
+        "mid"
+      ],
+      "meaning": "中间；中部"
+    }
+  ],
+  "suffixes": [
+    {
+      "key": "able",
+      "label": "-able / -ible",
+      "forms": [
+        "able",
+        "ible"
+      ],
+      "meaning": "能…的；可…的"
+    },
+    {
+      "key": "al",
+      "label": "-al",
+      "forms": [
+        "al"
+      ],
+      "meaning": "…的；与…有关的"
+    },
+    {
+      "key": "ance",
+      "label": "-ance / -ence",
+      "forms": [
+        "ance",
+        "ence"
+      ],
+      "meaning": "状态；性质；行为"
+    },
+    {
+      "key": "ant",
+      "label": "-ant / -ent",
+      "forms": [
+        "ant",
+        "ent"
+      ],
+      "meaning": "人；…的"
+    },
+    {
+      "key": "ary",
+      "label": "-ary",
+      "forms": [
+        "ary"
+      ],
+      "meaning": "…的；场所；人"
+    },
+    {
+      "key": "ate",
+      "label": "-ate",
+      "forms": [
+        "ate"
+      ],
+      "meaning": "使…；具有…的"
+    },
+    {
+      "key": "dom",
+      "label": "-dom",
+      "forms": [
+        "dom"
+      ],
+      "meaning": "领域；状态；身份"
+    },
+    {
+      "key": "ee",
+      "label": "-ee",
+      "forms": [
+        "ee"
+      ],
+      "meaning": "被…的人；受动者"
+    },
+    {
+      "key": "en",
+      "label": "-en",
+      "forms": [
+        "en"
+      ],
+      "meaning": "使…；由…制成"
+    },
+    {
+      "key": "er",
+      "label": "-er / -or",
+      "forms": [
+        "er",
+        "or"
+      ],
+      "meaning": "人；物；做…的人"
+    },
+    {
+      "key": "ess",
+      "label": "-ess",
+      "forms": [
+        "ess"
+      ],
+      "meaning": "女性；阴性"
+    },
+    {
+      "key": "ful",
+      "label": "-ful",
+      "forms": [
+        "ful"
+      ],
+      "meaning": "充满…的；有…性质的"
+    },
+    {
+      "key": "fy",
+      "label": "-fy / -ify",
+      "forms": [
+        "fy",
+        "ify"
+      ],
+      "meaning": "使…；使成为"
+    },
+    {
+      "key": "hood",
+      "label": "-hood",
+      "forms": [
+        "hood"
+      ],
+      "meaning": "身份；状态；时期"
+    },
+    {
+      "key": "ic",
+      "label": "-ic",
+      "forms": [
+        "ic"
+      ],
+      "meaning": "…的；与…有关的"
+    },
+    {
+      "key": "ing",
+      "label": "-ing",
+      "forms": [
+        "ing"
+      ],
+      "meaning": "动作；结果；正在…的"
+    },
+    {
+      "key": "ion",
+      "label": "-ion / -tion / -sion",
+      "forms": [
+        "ion",
+        "tion",
+        "sion",
+        "ation"
+      ],
+      "meaning": "动作；过程；状态"
+    },
+    {
+      "key": "ism",
+      "label": "-ism",
+      "forms": [
+        "ism"
+      ],
+      "meaning": "主义；行为；特征"
+    },
+    {
+      "key": "ist",
+      "label": "-ist",
+      "forms": [
+        "ist"
+      ],
+      "meaning": "人；主义者；从事…的人"
+    },
+    {
+      "key": "ity",
+      "label": "-ity / -ty",
+      "forms": [
+        "ity",
+        "ty"
+      ],
+      "meaning": "性质；状态；程度"
+    },
+    {
+      "key": "ive",
+      "label": "-ive",
+      "forms": [
+        "ive"
+      ],
+      "meaning": "有…性质的；倾向于…的"
+    },
+    {
+      "key": "ize",
+      "label": "-ize / -ise",
+      "forms": [
+        "ize",
+        "ise"
+      ],
+      "meaning": "使…；变成"
+    },
+    {
+      "key": "less",
+      "label": "-less",
+      "forms": [
+        "less"
+      ],
+      "meaning": "无…的；缺少…的"
+    },
+    {
+      "key": "ly",
+      "label": "-ly",
+      "forms": [
+        "ly"
+      ],
+      "meaning": "…地；…的"
+    },
+    {
+      "key": "ment",
+      "label": "-ment",
+      "forms": [
+        "ment"
+      ],
+      "meaning": "行为；结果；状态"
+    },
+    {
+      "key": "ness",
+      "label": "-ness",
+      "forms": [
+        "ness"
+      ],
+      "meaning": "性质；状态；程度"
+    },
+    {
+      "key": "ous",
+      "label": "-ous / -ious",
+      "forms": [
+        "ous",
+        "ious"
+      ],
+      "meaning": "充满…的；有…性质的"
+    },
+    {
+      "key": "ship",
+      "label": "-ship",
+      "forms": [
+        "ship"
+      ],
+      "meaning": "关系；状态；身份"
+    },
+    {
+      "key": "ward",
+      "label": "-ward",
+      "forms": [
+        "ward"
+      ],
+      "meaning": "向…；朝…方向"
+    },
+    {
+      "key": "wise",
+      "label": "-wise",
+      "forms": [
+        "wise"
+      ],
+      "meaning": "方式；方向"
+    },
+    {
+      "key": "age",
+      "label": "-age",
+      "forms": [
+        "age"
+      ],
+      "meaning": "行为；结果；集合"
+    },
+    {
+      "key": "ure",
+      "label": "-ure",
+      "forms": [
+        "ure"
+      ],
+      "meaning": "行为；结果；状态"
+    },
+    {
+      "key": "y",
+      "label": "-y",
+      "forms": [
+        "y"
+      ],
+      "meaning": "…的；有…性质的"
+    },
+    {
+      "key": "logy",
+      "label": "-logy",
+      "forms": [
+        "logy"
+      ],
+      "meaning": "学科；研究"
+    },
+    {
+      "key": "graphy",
+      "label": "-graphy",
+      "forms": [
+        "graphy"
+      ],
+      "meaning": "写法；学科；记录"
+    },
+    {
+      "key": "scope",
+      "label": "-scope",
+      "forms": [
+        "scope"
+      ],
+      "meaning": "观察仪器"
+    },
+    {
+      "key": "meter",
+      "label": "-meter",
+      "forms": [
+        "meter"
+      ],
+      "meaning": "测量仪；计量"
+    },
+    {
+      "key": "some",
+      "label": "-some",
+      "forms": [
+        "some"
+      ],
+      "meaning": "有…倾向的；令人…的"
+    },
+    {
+      "key": "ish",
+      "label": "-ish",
+      "forms": [
+        "ish"
+      ],
+      "meaning": "有点…的；…的"
+    },
+    {
+      "key": "let",
+      "label": "-let",
+      "forms": [
+        "let"
+      ],
+      "meaning": "小；小的东西"
+    },
+    {
+      "key": "ling",
+      "label": "-ling",
+      "forms": [
+        "ling"
+      ],
+      "meaning": "小；幼小者"
+    },
+    {
+      "key": "ence",
+      "label": "-ence",
+      "forms": [
+        "ence"
+      ],
+      "meaning": "性质；状态"
+    },
+    {
+      "key": "ent",
+      "label": "-ent",
+      "forms": [
+        "ent"
+      ],
+      "meaning": "人；物；具有…性质的"
+    },
+    {
+      "key": "ory",
+      "label": "-ory",
+      "forms": [
+        "ory"
+      ],
+      "meaning": "场所；性质"
+    },
+    {
+      "key": "tude",
+      "label": "-tude",
+      "forms": [
+        "tude"
+      ],
+      "meaning": "性质；状态"
+    },
+    {
+      "key": "acy",
+      "label": "-acy",
+      "forms": [
+        "acy"
+      ],
+      "meaning": "性质；状态"
+    }
+  ],
+  "roots": [
+    {
+      "key": "act",
+      "label": "act / ag",
+      "forms": [
+        "act",
+        "ag"
+      ],
+      "meaning": "做；驱动"
+    },
+    {
+      "key": "aud",
+      "label": "aud",
+      "forms": [
+        "aud"
+      ],
+      "meaning": "听"
+    },
+    {
+      "key": "bio",
+      "label": "bio",
+      "forms": [
+        "bio"
+      ],
+      "meaning": "生命"
+    },
+    {
+      "key": "cap",
+      "label": "cap / cept",
+      "forms": [
+        "cap",
+        "cept"
+      ],
+      "meaning": "拿；抓；接受"
+    },
+    {
+      "key": "chron",
+      "label": "chron",
+      "forms": [
+        "chron"
+      ],
+      "meaning": "时间"
+    },
+    {
+      "key": "cred",
+      "label": "cred",
+      "forms": [
+        "cred"
+      ],
+      "meaning": "相信"
+    },
+    {
+      "key": "dict",
+      "label": "dict",
+      "forms": [
+        "dict"
+      ],
+      "meaning": "说；断言"
+    },
+    {
+      "key": "duc",
+      "label": "duc / duct",
+      "forms": [
+        "duc",
+        "duct"
+      ],
+      "meaning": "引导；带领"
+    },
+    {
+      "key": "fac",
+      "label": "fac / fect",
+      "forms": [
+        "fac",
+        "fect"
+      ],
+      "meaning": "做；制造"
+    },
+    {
+      "key": "fer",
+      "label": "fer",
+      "forms": [
+        "fer"
+      ],
+      "meaning": "带来；携带"
+    },
+    {
+      "key": "fin",
+      "label": "fin",
+      "forms": [
+        "fin"
+      ],
+      "meaning": "结束；界限"
+    },
+    {
+      "key": "form",
+      "label": "form",
+      "forms": [
+        "form"
+      ],
+      "meaning": "形状；形成"
+    },
+    {
+      "key": "gen",
+      "label": "gen",
+      "forms": [
+        "gen"
+      ],
+      "meaning": "产生；种类"
+    },
+    {
+      "key": "geo",
+      "label": "geo",
+      "forms": [
+        "geo"
+      ],
+      "meaning": "地球；土地"
+    },
+    {
+      "key": "graph",
+      "label": "graph",
+      "forms": [
+        "graph"
+      ],
+      "meaning": "写；画；记录"
+    },
+    {
+      "key": "ject",
+      "label": "ject",
+      "forms": [
+        "ject"
+      ],
+      "meaning": "投；扔",
+      "examples": [
+        "inject",
+        "subject",
+        "reject"
+      ]
+    },
+    {
+      "key": "log",
+      "label": "log",
+      "forms": [
+        "log"
+      ],
+      "meaning": "言语；学科"
+    },
+    {
+      "key": "man",
+      "label": "man",
+      "forms": [
+        "man"
+      ],
+      "meaning": "手"
+    },
+    {
+      "key": "mit",
+      "label": "mit / miss",
+      "forms": [
+        "mit",
+        "miss"
+      ],
+      "meaning": "送；放出"
+    },
+    {
+      "key": "mot",
+      "label": "mot / mov",
+      "forms": [
+        "mot",
+        "mov"
+      ],
+      "meaning": "移动；推动"
+    },
+    {
+      "key": "mort",
+      "label": "mort",
+      "forms": [
+        "mort"
+      ],
+      "meaning": "死"
+    },
+    {
+      "key": "ped",
+      "label": "ped",
+      "forms": [
+        "ped"
+      ],
+      "meaning": "脚；行走"
+    },
+    {
+      "key": "pel",
+      "label": "pel / puls",
+      "forms": [
+        "pel",
+        "puls"
+      ],
+      "meaning": "推；驱动"
+    },
+    {
+      "key": "phon",
+      "label": "phon",
+      "forms": [
+        "phon"
+      ],
+      "meaning": "声音"
+    },
+    {
+      "key": "photo",
+      "label": "photo",
+      "forms": [
+        "photo"
+      ],
+      "meaning": "光"
+    },
+    {
+      "key": "port",
+      "label": "port",
+      "forms": [
+        "port"
+      ],
+      "meaning": "携带；搬运",
+      "examples": [
+        "portable",
+        "support"
+      ]
+    },
+    {
+      "key": "pos",
+      "label": "pos / pon",
+      "forms": [
+        "pos",
+        "pon"
+      ],
+      "meaning": "放；放置"
+    },
+    {
+      "key": "psych",
+      "label": "psych",
+      "forms": [
+        "psych"
+      ],
+      "meaning": "心理；精神"
+    },
+    {
+      "key": "scrib",
+      "label": "scrib / script",
+      "forms": [
+        "scrib",
+        "script"
+      ],
+      "meaning": "写"
+    },
+    {
+      "key": "sens",
+      "label": "sens / sent",
+      "forms": [
+        "sens",
+        "sent"
+      ],
+      "meaning": "感觉"
+    },
+    {
+      "key": "spect",
+      "label": "spect / spec",
+      "forms": [
+        "spect",
+        "spec"
+      ],
+      "meaning": "看；观察",
+      "examples": [
+        "spectator",
+        "specification",
+        "spectrum"
+      ]
+    },
+    {
+      "key": "sist",
+      "label": "sist / stat",
+      "forms": [
+        "sist",
+        "stat"
+      ],
+      "meaning": "站立；稳定"
+    },
+    {
+      "key": "struct",
+      "label": "struct",
+      "forms": [
+        "struct"
+      ],
+      "meaning": "建造"
+    },
+    {
+      "key": "tract",
+      "label": "tract",
+      "forms": [
+        "tract"
+      ],
+      "meaning": "拉；拖"
+    },
+    {
+      "key": "vac",
+      "label": "vac",
+      "forms": [
+        "vac"
+      ],
+      "meaning": "空"
+    },
+    {
+      "key": "ven",
+      "label": "ven / vent",
+      "forms": [
+        "ven",
+        "vent"
+      ],
+      "meaning": "来"
+    },
+    {
+      "key": "vert",
+      "label": "vert / vers",
+      "forms": [
+        "vert",
+        "vers"
+      ],
+      "meaning": "转"
+    },
+    {
+      "key": "vid",
+      "label": "vid / vis",
+      "forms": [
+        "vid",
+        "vis"
+      ],
+      "meaning": "看"
+    },
+    {
+      "key": "voc",
+      "label": "voc",
+      "forms": [
+        "voc"
+      ],
+      "meaning": "声音；叫"
+    },
+    {
+      "key": "therm",
+      "label": "therm",
+      "forms": [
+        "therm"
+      ],
+      "meaning": "热"
+    },
+    {
+      "key": "meter",
+      "label": "meter / metr",
+      "forms": [
+        "meter",
+        "metr"
+      ],
+      "meaning": "测量"
+    },
+    {
+      "key": "aqua",
+      "label": "aqua",
+      "forms": [
+        "aqua"
+      ],
+      "meaning": "水"
+    },
+    {
+      "key": "terr",
+      "label": "terr",
+      "forms": [
+        "terr"
+      ],
+      "meaning": "土地"
+    },
+    {
+      "key": "vit",
+      "label": "vit",
+      "forms": [
+        "vit"
+      ],
+      "meaning": "生命"
+    },
+    {
+      "key": "sol",
+      "label": "sol",
+      "forms": [
+        "sol"
+      ],
+      "meaning": "太阳；单独"
+    }
+  ]
+}

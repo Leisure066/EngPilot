@@ -1,0 +1,14 @@
+<Application x:Class="Zhanci.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <SolidColorBrush x:Key="WindowBackground" Color="#F5F6FB" />
+    <SolidColorBrush x:Key="TitleBarBackground" Color="#F5F6FB" />
+    <SolidColorBrush x:Key="TitleBarForeground" Color="#18213C" />
+    <SolidColorBrush x:Key="TitleBarMuted" Color="#7C849B" />
+    <SolidColorBrush x:Key="TitleBarHover" Color="#E9EBF3" />
+    <SolidColorBrush x:Key="TitleBarPressed" Color="#DDE1ED" />
+    <SolidColorBrush x:Key="WindowBorder" Color="#DDE1ED" />
+    <SolidColorBrush x:Key="CloseHover" Color="#E81123" />
+  </Application.Resources>
+</Application>
